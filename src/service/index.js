@@ -13,7 +13,7 @@ import Application from '../constants/config';
 import AppUtil from '../lib/util';
 import DBConstants from '../models/constants';
 
-const PushNotification = require('react-native-push-notification');
+//const PushNotification = require('react-native-push-notification');
 
 const MODULE = 'ChatService';
 const DEFAULT_USER = 'default';
@@ -488,12 +488,12 @@ class ChatService {
           const msgTs = moment(inM.ts);
           const currentTsDiff = moment().diff(msgTs, 'minutes');
           if (currentTsDiff < 1) {
-            PushNotification.localNotificationSchedule({
-              message: `Video Call started in ${groupObj.name}`, // (required)
-              playSound: true,
-              soundName: 'vcring.mp3',
-              date: new Date(Date.now()), // in 60 secs
-            });
+            // PushNotification.localNotificationSchedule({
+            //   message: `Video Call started in ${groupObj.name}`, // (required)
+            //   playSound: true,
+            //   soundName: 'vcring.mp3',
+            //   date: new Date(Date.now()), // in 60 secs
+            // });
           }
         }
       }

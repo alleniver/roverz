@@ -2,7 +2,7 @@ import md5 from 'react-native-md5';
 
 // import Network from 'roverz-chat/src/network';
 // import InCallManager from 'react-native-incall-manager';
-import PushNotification from 'react-native-push-notification';
+//import PushNotification from 'react-native-push-notification';
 import { Actions } from 'react-native-router-flux';
 import Application from '../constants/config';
 
@@ -28,18 +28,18 @@ export default class VCUtil {
     this._gid = groupID;
     this._remoteuid = rUID;
     this._remoteName = rUName;
-    PushNotification.cancelAllLocalNotifications();
-    PushNotification.localNotificationSchedule({
-      message: `Video Calling ${this._remoteName}`, // (required)
-      playSound: false,
-      autoCancel: false,
-      vcData: {
-        groupID,
-        rUID,
-      },
-      date: new Date(Date.now()), // in 60 secs
-      // actions: '["Accept", "Reject"]',
-    });
+    // PushNotification.cancelAllLocalNotifications();
+    // PushNotification.localNotificationSchedule({
+    //   message: `Video Calling ${this._remoteName}`, // (required)
+    //   playSound: false,
+    //   autoCancel: false,
+    //   vcData: {
+    //     groupID,
+    //     rUID,
+    //   },
+    //   date: new Date(Date.now()), // in 60 secs
+    //   // actions: '["Accept", "Reject"]',
+    // });
     // InCallManager.startRingtone('_BUNDLE_');
     // InCallManager.turnScreenOn();
 
@@ -57,7 +57,7 @@ export default class VCUtil {
   }
 
   incomingVCDisconnect() {
-    PushNotification.cancelAllLocalNotifications();
+    //PushNotification.cancelAllLocalNotifications();
     // InCallManager.stopRingtone();
   }
 

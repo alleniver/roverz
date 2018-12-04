@@ -11,12 +11,12 @@ jest.mock('Linking', () =>
   }),
 );
 
-jest.mock('react-native-push-notification', () => ({
-  addEventListener: jest.fn(),
-  removeEventListener: jest.fn(),
-  requestPermissions: jest.fn(),
-  configure: jest.fn(),
-}));
+// jest.mock('react-native-push-notification', () => ({
+//   addEventListener: jest.fn(),
+//   removeEventListener: jest.fn(),
+//   requestPermissions: jest.fn(),
+//   configure: jest.fn(),
+// }));
 
 // Mocking the global.fetch included in React Native
 global.fetch = jest.fn();

@@ -7,11 +7,11 @@ import Database from '../models';
 import Service from '../service';
 import RocketChat from '../rc';
 
-import PushService from './PushService';
+//import PushService from './PushService';
 import MeteorService from './MeteorService';
 import ChatService from './ChatService';
 
-const PushNotification = require('react-native-push-notification');
+//const PushNotification = require('react-native-push-notification');
 
 class Network {
 
@@ -21,8 +21,8 @@ class Network {
 
   init() {
     if (!Network._push) {
-      Network._push = new PushService();
-      Network._push.init();
+      //Network._push = new PushService();
+      //Network._push.init();
       Network._db = new Database();
       Network._meteor = new MeteorService();
       this.onLogin(() => {
@@ -148,13 +148,13 @@ class Network {
 
   handleAppStateChange = (nextAppState) => {
     if (nextAppState === 'background') {
-      PushNotification.cancelAllLocalNotifications();
+      //PushNotification.cancelAllLocalNotifications();
       this.service.setUserPresence('away');
       if (Platform.OS === 'android') {
         RNExitApp.exitApp();
       }
     } else if (nextAppState === 'active') {
-      PushNotification.cancelAllLocalNotifications();
+      //PushNotification.cancelAllLocalNotifications();
       // this.reconnectMeteor();
       this.service.setUserPresence('online');
     }
