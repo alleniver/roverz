@@ -314,10 +314,6 @@ ChatNavBar.defaultProps = {
   customButtons: () => {},
 };
 
-ChatNavBar.propTypes = {
-  obj: PropTypes.instanceOf(Group),
-  customButtons: PropTypes.func,
-};
 
 /* Export Component ==================================================================== */
 export default ChatNavBar;

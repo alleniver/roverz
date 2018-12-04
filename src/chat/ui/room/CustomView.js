@@ -66,7 +66,3 @@ CustomView.defaultProps = {
   currentMessage: null,
 };
 
-CustomView.propTypes = {
-  currentMessage: PropTypes.object,  // eslint-disable-line react/forbid-prop-types
-};
-

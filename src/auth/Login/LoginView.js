@@ -79,9 +79,6 @@ const styles = StyleSheet.create({
 class Login extends Component {
   static componentName = 'Login';
 
-  static propTypes = {
-    login: PropTypes.func.isRequired,
-  }
 
   constructor(props) {
     super(props);

@@ -64,7 +64,3 @@ export default class NavBarMessages extends React.Component {
 NavBarMessages.defaultProps = {
   title: '',
 };
-
-NavBarMessages.propTypes = {
-  title: PropTypes.string,
-};

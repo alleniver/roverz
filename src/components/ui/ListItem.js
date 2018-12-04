@@ -17,24 +17,7 @@ import t from '../../i18n';
 
 /* Component ==================================================================== */
 class CustomListItem extends Component {
-  static propTypes = {
-    containerStyle: PropTypes.oneOfType([
-      PropTypes.array,
-      PropTypes.shape({}),
-    ]),
-    titleStyle: PropTypes.oneOfType([
-      PropTypes.array,
-      PropTypes.shape({}),
-    ]),
-    subtitleStyle: PropTypes.oneOfType([
-      PropTypes.array,
-      PropTypes.shape({}),
-    ]),
-    avatarStyle: PropTypes.oneOfType([
-      PropTypes.array,
-      PropTypes.shape({}),
-    ]),
-  }
+
 
   static defaultProps = {
     containerStyle: [],

@@ -263,7 +263,3 @@ export default class AudioPlay extends React.Component {
 AudioPlay.defaultProps = {
   audioFile: '',
 };
-
-AudioPlay.propTypes = {
-  audioFile: PropTypes.string,
-};

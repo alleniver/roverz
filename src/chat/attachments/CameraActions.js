@@ -467,12 +467,4 @@ CameraActions.defaultProps = {
   progressCallback: () => {},
 };
 
-CameraActions.propTypes = {
-  onSend: React.PropTypes.func,
-  containerStyle: View.propTypes.style,
-  textStyle: Text.propTypes.style,
-  group: PropTypes.instanceOf(Group),
-  groupId: PropTypes.string,
-  progressCallback: PropTypes.func,
-};
 

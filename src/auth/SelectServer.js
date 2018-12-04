@@ -274,7 +274,3 @@ export default class SelectServer extends React.Component {
 SelectServer.defaultProps = {
   switchServer: false,
 };
-
-SelectServer.propTypes = {
-  switchServer: PropTypes.bool,
-};

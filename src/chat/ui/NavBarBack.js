@@ -69,6 +69,3 @@ NavBarBack.defaultProps = {
   title: '',
 };
 
-NavBarBack.propTypes = {
-  title: PropTypes.string,
-};

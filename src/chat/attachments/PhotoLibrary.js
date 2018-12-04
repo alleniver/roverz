@@ -329,10 +329,3 @@ PhotoLibrary.defaultProps = {
   progressCallback: () => {},
 };
 
-PhotoLibrary.propTypes = {
-  onSend: React.PropTypes.func,
-  containerStyle: View.propTypes.style,
-  textStyle: Text.propTypes.style,
-  groupId: PropTypes.string,
-  progressCallback: PropTypes.func,
-};

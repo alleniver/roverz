@@ -178,9 +178,6 @@ class ChangePassword extends Component {
 /* Export Component ==================================================================== */
 export default ChangePassword;
 
-ChangePassword.propTypes = {
-
-};
 
 ChangePassword.defaultProps = {
 

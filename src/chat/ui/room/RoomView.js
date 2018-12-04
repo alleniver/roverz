@@ -1156,11 +1156,6 @@ ChatRoomView.defaultProps = {
 
 };
 
-ChatRoomView.propTypes = {
-  obj: PropTypes.instanceOf(Group).isRequired,
-  attach: React.PropTypes.object, // eslint-disable-line react/forbid-prop-types
-  attachAudio: React.PropTypes.bool,
-};
 
 /* Export Component ==================================================================== */
 export default ChatRoomView;

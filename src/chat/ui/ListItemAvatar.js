@@ -145,15 +145,6 @@ ListItemAvatar.defaultProps = {
   height: null,
 };
 
-ListItemAvatar.propTypes = {
-  source: PropTypes.string,
-  name: PropTypes.string,
-  avType: PropTypes.string,
-  size: PropTypes.number,
-  width: PropTypes.number,
-  height: PropTypes.number,
-  sqrAvatar: PropTypes.bool,
-};
 
 /* Export Component ==================================================================== */
 export default ListItemAvatar;

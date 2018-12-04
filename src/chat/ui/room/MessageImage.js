@@ -163,12 +163,3 @@ MessageImage.defaultProps = {
   pressLong: null,
 };
 
-MessageImage.propTypes = {
-  currentMessage: React.PropTypes.object,   // eslint-disable-line react/forbid-prop-types
-  containerStyle: View.propTypes.style,
-  imageStyle: Image.propTypes.style,
-  imageProps: React.PropTypes.object,       // eslint-disable-line react/forbid-prop-types
-  lightboxProps: React.PropTypes.object,    // eslint-disable-line react/forbid-prop-types
-  obj: React.PropTypes.object,    // eslint-disable-line react/forbid-prop-types
-  pressLong: React.PropTypes.func,
-};

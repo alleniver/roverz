@@ -217,9 +217,3 @@ MemberDetailView.defaultProps = {
   avHeight: null,
 };
 
-MemberDetailView.propTypes = {
-  group: PropTypes.instanceOf(Group),
-  memberId: PropTypes.string,
-  memberUsername: PropTypes.string,
-  avHeight: PropTypes.number,
-};

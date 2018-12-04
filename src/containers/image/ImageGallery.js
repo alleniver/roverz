@@ -148,7 +148,3 @@ ImageGallery.defaultProps = {
   imgTitle: '',
 };
 
-ImageGallery.propTypes = {
-  imgUrl: PropTypes.string,
-  imgTitle: PropTypes.string,
-};

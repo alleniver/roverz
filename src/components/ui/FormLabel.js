@@ -15,13 +15,7 @@ import { AppColors, AppFonts } from '../../theme/';
 
 /* Component ==================================================================== */
 class CustomFormLabel extends Component {
-  static propTypes = {
-    labelStyle: PropTypes.oneOfType([
-      PropTypes.array,
-      PropTypes.shape({}),
-    ]),
-    children: PropTypes.node,
-  }
+
 
   static defaultProps = {
     containerStyle: [],

@@ -34,10 +34,7 @@ const styles = StyleSheet.create({
 class AppWebView extends Component {
   static componentName = 'AppWebView';
 
-  static propTypes = {
-    url: PropTypes.string.isRequired,
-    onNavigationStateChange: PropTypes.func,
-  }
+
 
   static defaultProps = {
     onNavigationStateChange: null,

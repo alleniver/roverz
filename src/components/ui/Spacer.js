@@ -22,7 +22,6 @@ const Spacer = ({ size }) => (
   />
 );
 
-Spacer.propTypes = { size: PropTypes.number };
 Spacer.defaultProps = { size: 10 };
 Spacer.componentName = 'Spacer';
 

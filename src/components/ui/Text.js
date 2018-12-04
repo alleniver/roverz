@@ -15,20 +15,7 @@ import { AppStyles } from '../../theme/';
 
 /* Component ==================================================================== */
 class CustomText extends Component {
-  static propTypes = {
-    h1: PropTypes.bool,
-    h2: PropTypes.bool,
-    h3: PropTypes.bool,
-    h4: PropTypes.bool,
-    h5: PropTypes.bool,
-    p: PropTypes.bool,
-    onPress: PropTypes.func,
-    style: PropTypes.oneOfType([
-      PropTypes.array,
-      PropTypes.shape({}),
-    ]),
-    children: PropTypes.node,
-  }
+
 
   static defaultProps = {
     h1: false,

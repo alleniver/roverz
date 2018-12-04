@@ -37,12 +37,3 @@ Preloader.defaultProps = {
   color: activityColor,
   style: [],
 };
-
-Preloader.propTypes = {
-  size: PropTypes.string,
-  color: PropTypes.string,
-  style: PropTypes.oneOfType([
-    PropTypes.array,
-    PropTypes.shape({}),
-  ]),
-};

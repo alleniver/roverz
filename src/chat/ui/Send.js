@@ -67,10 +67,3 @@ Send.defaultProps = {
   textStyle: {},
 };
 
-Send.propTypes = {
-  text: PropTypes.string,
-  onSend: PropTypes.func,
-  label: PropTypes.string,
-  containerStyle: ViewPropTypes.style,
-  textStyle: Text.propTypes.style,
-};

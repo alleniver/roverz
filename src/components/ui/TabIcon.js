@@ -47,7 +47,6 @@ const TabIcon = ({ icon, selected, subTitle }) => (
   </View>
 );
 
-TabIcon.propTypes = { icon: PropTypes.string.isRequired, selected: PropTypes.bool, subTitle: PropTypes.string };
 TabIcon.defaultProps = { icon: 'search-web', selected: false, subTitle: '' };
 
 /* Export Component ==================================================================== */

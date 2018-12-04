@@ -15,16 +15,6 @@ import { AppSizes, AppColors, AppStyles } from '../../theme/';
 
 /* Component ==================================================================== */
 class CustomCard extends Component {
-  static propTypes = {
-    containerStyle: PropTypes.oneOfType([
-      PropTypes.array,
-      PropTypes.shape({}),
-    ]),
-    titleStyle: PropTypes.oneOfType([
-      PropTypes.array,
-      PropTypes.shape({}),
-    ]),
-  }
 
   static defaultProps = {
     containerStyle: [],

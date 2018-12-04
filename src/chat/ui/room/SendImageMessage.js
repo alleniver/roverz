@@ -81,10 +81,6 @@ export default class SendImageMessage extends React.Component {
   }
 }
 
-SendImageMessage.contextTypes = {
-  actionSheet: React.PropTypes.func,
-};
-
 SendImageMessage.defaultProps = {
   onSend: () => {},
   // options: {},
@@ -96,13 +92,3 @@ SendImageMessage.defaultProps = {
   progressCallback: () => {},
 };
 
-SendImageMessage.propTypes = {
-  onSend: React.PropTypes.func,
-  // options: React.PropTypes.shape,
-  icon: React.PropTypes.func,
-  containerStyle: View.propTypes.style,
-  wrapperStyle: View.propTypes.style,
-  iconTextStyle: Text.propTypes.style,
-  group: PropTypes.instanceOf(Group),
-  progressCallback: PropTypes.func,
-};

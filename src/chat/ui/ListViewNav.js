@@ -157,9 +157,6 @@ ListViewNav.defaultProps = {
 
 };
 
-ListViewNav.propTypes = {
-
-};
 
 /* Export Component ==================================================================== */
 export default ListViewNav;

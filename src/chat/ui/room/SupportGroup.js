@@ -58,6 +58,3 @@ export default class SupportGroup extends React.Component {
 
 SupportGroup.defaultProps = {
 };
-
-SupportGroup.propTypes = {
-};

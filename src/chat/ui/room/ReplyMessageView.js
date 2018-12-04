@@ -789,14 +789,4 @@ ReplyMessageView.defaultProps = {
   canDelete: false,
 };
 
-ReplyMessageView.propTypes = {
-  containerStyle: View.propTypes.style,
-  textStyle: Text.propTypes.style,
-  actualMessage: PropTypes.string,
-  msgId: PropTypes.string,
-  msgTitle: PropTypes.string,
-  msgLikes: PropTypes.number,
-  obj: React.PropTypes.object,    // eslint-disable-line react/forbid-prop-types
-  canDelete: React.PropTypes.bool,
-};
 

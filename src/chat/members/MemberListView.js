@@ -222,9 +222,3 @@ MemberListView.defaultProps = {
   avHeight: null,
 };
 
-MemberListView.propTypes = {
-  group: PropTypes.instanceOf(Group),
-  roomName: React.PropTypes.string,
-  roomTitle: React.PropTypes.string,
-  avHeight: PropTypes.number,
-};

@@ -103,12 +103,6 @@ const Alerts = ({ status, success, error }) => (
   </View>
 );
 
-Alerts.propTypes = {
-  status: PropTypes.string,
-  success: PropTypes.string,
-  error: PropTypes.string,
-};
-
 Alerts.defaultProps = {
   status: '',
   success: '',

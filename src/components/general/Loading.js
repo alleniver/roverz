@@ -39,7 +39,6 @@ const Loading = ({ text, transparent }) => (
   </View>
 );
 
-Loading.propTypes = { text: PropTypes.string, transparent: PropTypes.bool };
 Loading.defaultProps = { text: null, transparent: false };
 Loading.componentName = 'Loading';
 

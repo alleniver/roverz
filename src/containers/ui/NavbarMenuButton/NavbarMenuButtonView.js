@@ -23,9 +23,5 @@ const NavbarMenuButton = ({ toggleSideMenu }) => (
   </TouchableOpacity>
 );
 
-NavbarMenuButton.propTypes = {
-  toggleSideMenu: PropTypes.func.isRequired,
-};
-
 /* Export Component ==================================================================== */
 export default NavbarMenuButton;

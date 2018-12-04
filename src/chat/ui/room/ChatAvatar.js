@@ -84,9 +84,3 @@ ChatAvatar.defaultProps = {
   borderRad: null,
 };
 
-ChatAvatar.propTypes = {
-  avatar: React.PropTypes.string,
-  name: React.PropTypes.string,
-  size: React.PropTypes.number,
-  borderRad: React.PropTypes.number,
-};

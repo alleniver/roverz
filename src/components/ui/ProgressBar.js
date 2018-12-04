@@ -44,6 +44,3 @@ ProgressBar.defaultProps = {
   progress: 0.5,
 };
 
-ProgressBar.propTypes = {
-  progress: PropTypes.number,
-};

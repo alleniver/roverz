@@ -4,7 +4,7 @@
  * React Native Starter App
  * https://github.com/mcnamee/react-native-starter-app
  */
-import React, { Component, PropTypes } from 'react';
+import React, { Component } from 'react';
 import Meteor from 'react-native-meteor';
 
 import {
@@ -337,13 +337,6 @@ class Menu extends Component {
 /* Export Component ==================================================================== */
 export default Menu;
 
-Menu.propTypes = {
-  // logout: PropTypes.func.isRequired,
-  // closeSideMenu: PropTypes.func.isRequired,
-  user: PropTypes.shape({
-    name: PropTypes.string,
-  }),
-};
 
 Menu.defaultProps = {
   user: null,

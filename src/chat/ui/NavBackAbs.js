@@ -60,6 +60,3 @@ NavBackAbs.defaultProps = {
   title: '',
 };
 
-NavBackAbs.propTypes = {
-  title: PropTypes.string,
-};

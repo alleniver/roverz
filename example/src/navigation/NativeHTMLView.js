@@ -44,6 +44,3 @@ NativeHTMLView.defaultProps = {
   htmlContent: '',
 };
 
-NativeHTMLView.propTypes = {
-  htmlContent: PropTypes.string,
-};

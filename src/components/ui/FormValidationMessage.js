@@ -6,7 +6,7 @@
  * React Native Starter App
  * https://github.com/mcnamee/react-native-starter-app
  */
-import React, { Component, PropTypes } from 'react';
+import React, { Component } from 'react';
 import { FormValidationMessage } from 'react-native-elements';
 
 // Consts and Libs
@@ -14,16 +14,7 @@ import { AppFonts } from '../../theme/';
 
 /* Component ==================================================================== */
 class CustomFormValidationMessage extends Component {
-  static propTypes = {
-    containerStyle: PropTypes.oneOfType([
-      PropTypes.array,
-      PropTypes.shape({}),
-    ]),
-    labelStyle: PropTypes.oneOfType([
-      PropTypes.array,
-      PropTypes.shape({}),
-    ]),
-  }
+
 
   static defaultProps = {
     containerStyle: [],

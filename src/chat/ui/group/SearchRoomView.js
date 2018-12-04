@@ -173,7 +173,4 @@ SearchRoomView.defaultProps = {
   group: null,
 };
 
-SearchRoomView.propTypes = {
-  group: PropTypes.instanceOf(Group),
-};
 

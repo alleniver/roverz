@@ -246,7 +246,3 @@ VideoPlayer.defaultProps = {
   // cameraData: {},
 };
 
-VideoPlayer.propTypes = {
-  videoUrl: PropTypes.string,
-  // cameraData: React.PropTypes.object,
-};

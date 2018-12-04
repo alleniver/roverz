@@ -129,9 +129,3 @@ AboutView.defaultProps = {
   instance: '',
   aboutDetails: {},
 };
-
-AboutView.propTypes = {
-  logo: PropTypes.number,
-  instance: PropTypes.string,
-  aboutDetails: PropTypes.object, // eslint-disable-line react/forbid-prop-types
-};

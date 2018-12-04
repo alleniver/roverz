@@ -25,7 +25,6 @@ const Placeholder = ({ text }) => (
   </View>
 );
 
-Placeholder.propTypes = { text: PropTypes.string };
 Placeholder.defaultProps = { text: t('txt_coming_soon') };
 Placeholder.componentName = 'Placeholder';
 

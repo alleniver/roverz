@@ -170,7 +170,3 @@ ImagePreview.defaultProps = {
   cameraData: {},
 };
 
-ImagePreview.propTypes = {
-  imageUrl: PropTypes.string,
-  cameraData: PropTypes.object, // eslint-disable-line react/forbid-prop-types
-};

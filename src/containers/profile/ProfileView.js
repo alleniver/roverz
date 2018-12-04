@@ -157,9 +157,6 @@ class ProfileView extends Component {
 /* Export Component ==================================================================== */
 export default ProfileView;
 
-ProfileView.propTypes = {
-
-};
 
 ProfileView.defaultProps = {
 

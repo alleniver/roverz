@@ -42,7 +42,6 @@ const Error = ({ text, tryAgain }) => (
   </View>
 );
 
-Error.propTypes = { text: PropTypes.string, tryAgain: PropTypes.func };
 Error.defaultProps = { text: t('err_something_wrong'), tryAgain: null };
 Error.componentName = 'Error';
 
