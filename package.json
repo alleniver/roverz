@@ -4,10 +4,7 @@
   "description": "chat related react-native code",
   "private": true,
   "scripts": {
-    "start": "node node_modules/react-native/local-cli/cli.js start",
-    "pretest": "./node_modules/.bin/eslint -c .eslintrc --ext .js src",
-    "lint": "./node_modules/.bin/eslint -c .eslintrc --ext .js src",
-    "test": "jest"
+    "start": "node node_modules/react-native/local-cli/cli.js start"
   },
   "main": "index.js",
   "repository": {
@@ -19,18 +16,6 @@
     "react-native"
   ],
   "author": "elarasu",
-  "jest": {
-    "preset": "react-native",
-    "setupFiles": [
-      "<rootDir>/jest.setup.js"
-    ],
-    "transformIgnorePatterns": [
-      "node_modules/(?!react-native|tcomb-form-native|apsl-react-native-button|react-native-device-info|react-clone-referenced-element|react|@expo)",
-      "node_modules/(realm)/"
-    ],
-    "collectCoverage": true,
-    "verbose": true
-  },
   "dependencies": {
     "html-entities": "^1.2.1",
     "jwt-decode": "^2.2.0",
@@ -70,7 +55,6 @@
     "react-native-button": "^2.3.0",
     "react-native-slider": "^0.11.0"
   },
-  "peerDependencies": {},
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.3",
@@ -98,9 +82,6 @@
     "webpack": "^4.26.1",
     "webpack-dev-server": "^3.1.10"
   },
-  "pre-commit": [
-    "lint"
-  ],
   "rnpm": {
     "assets": [
       "./assets/fonts"

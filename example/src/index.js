@@ -10,7 +10,6 @@ import { connect, Provider } from 'react-redux';
 import thunk from 'redux-thunk';
 import { Router } from 'react-native-router-flux';
 import {
-  Analytics,
   AppUtil,
   AppStyles,
   rootReducer,
@@ -29,7 +28,6 @@ const RouterWithRedux = connect()(Router);
 
 // Load middleware
 let middleware = [
-  Analytics,
   thunk, // Allows action creators to return functions (not just plain objects)
 ];
 

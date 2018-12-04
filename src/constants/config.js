@@ -2,7 +2,6 @@
  * Module App Config
  */
 /* global __DEV__ */
-import { GoogleAnalyticsTracker } from 'react-native-google-analytics-bridge';
 
 export default {
   // App Details
@@ -40,9 +39,9 @@ export default {
     return this.brand;
   },
 
-  get gaTracker() {
-    return this.ga;
-  },
+  // get gaTracker() {
+  //   return this.ga;
+  // },
 
   get filterRooms() {
     return this.filterRoomList;
@@ -76,9 +75,6 @@ export default {
       } else {
         this.resetInstance(`${this.space}.${this.brand}`);
       }
-    }
-    if (this.ga == null) {
-      this.ga = new GoogleAnalyticsTracker(this.gaTrackingId);
     }
     if (this.logo == null) {
       this.logo = require('../images/logo.png');  // eslint-disable-line global-require

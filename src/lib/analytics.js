@@ -16,7 +16,7 @@ const track = store => next => (action) => {
             : action.scene.analyticsDesc;
 
           // Send to Google Analytics
-          ModuleConfig.gaTracker.trackScreenView(screenName);
+          //ModuleConfig.gaTracker.trackScreenView(screenName);
         } catch (err) {
           console.log(store);
           // console.log(err);
