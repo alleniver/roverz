@@ -4,7 +4,9 @@
   "description": "chat related react-native code",
   "private": true,
   "scripts": {
-    "start": "node node_modules/react-native/local-cli/cli.js start"
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "main": "index.js",
   "repository": {
@@ -53,7 +55,8 @@
     "tcomb-form-native": "^0.6.20",
     "react-native-image-crop-picker": "^0.21.3",
     "react-native-button": "^2.3.0",
-    "react-native-slider": "^0.11.0"
+    "react-native-slider": "^0.11.0",
+    "snyk": "^1.230.5"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
@@ -86,5 +89,6 @@
     "assets": [
       "./assets/fonts"
     ]
-  }
+  },
+  "snyk": true
 }
