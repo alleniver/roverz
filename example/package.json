@@ -23,7 +23,7 @@
 		"react-native-video-player": "0.8.6",
 		"react-native-viewpager": "0.2.13",
 		"react-redux": "5.0.6",
-		"realm": "2.0.12",
+		"realm": "10.1.1",
 		"redux": "3.7.2",
 		"redux-logger": "3.0.6",
 		"redux-thunk": "^2.2.0",
